@@ -17,7 +17,7 @@ npm install typescript ts-loader webpack webpack-cli webpack-dev-server --save-d
 ```
   "scripts": {
     "build": "webpack --mode=development",
-    "start": "webpack-dev-server --mode=development"
+    "start": "webpack-dev-server --mode=development --inline"
   }
 ```
 
