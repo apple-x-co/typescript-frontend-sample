@@ -19,6 +19,11 @@ module.exports = {
         extensions:['.ts','.js']
     },
     devServer: {
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        },
+        disableHostCheck: true,
+        https:            false,
         // webpack-dev-serverの公開フォルダ
         contentBase: path.join(__dirname,'dist')
     },

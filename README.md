@@ -80,3 +80,7 @@ npm run-script start
 # OR
 npm run-script build
 ```
+
+---
+
+https://qiita.com/ochiochi/items/efdaa0ae7d8c972c8103
