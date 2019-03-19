@@ -62,15 +62,8 @@ module.exports = {
 
 ### tsconfig.json
 
-```json
-{
-  "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "strict": true,
-      "esModuleInterop": true   
-  }
-}
+```bash
+./node_modules/.bin/tsc --init
 ```
 
 ## Run
