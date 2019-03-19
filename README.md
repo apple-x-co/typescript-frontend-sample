@@ -9,7 +9,7 @@
 npm init --y
 
 # ツールのインストール
-npm install typescript ts-loader webpack webpack-cli webpack-dev-server --save-dev
+npm install typescript tsc ts-loader webpack webpack-cli webpack-dev-server --save-dev
 ```
 
 ### package.json
